@@ -1,0 +1,33 @@
+$main-border: 1px solid black;
+
+.column {
+    flex: 1;
+    box-sizing: border-box;
+    padding-right: 12px;
+    border-right: 1px solid black;
+    height: 100%;
+}
+
+.calendar {
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.columns {
+    display: flex;
+    flex: 1;
+    border-left: $main-border;
+}
+
+.hourSpan {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.DatesRow {
+    display: flex;
+}
+
+.DateBox {
+    flex: 1 1 0px;
+}
